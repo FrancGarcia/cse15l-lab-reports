@@ -10,6 +10,6 @@ Allow it to download, then open the application by searching for VSCode in your 
 menu at the bottom left of your computer.
 
 Once opened, VSCode should look something like this:
-![Image]()
+![Image](vscode.png)
 
 **Visist [STEP 2]() or go back to the [main blog post]().**
