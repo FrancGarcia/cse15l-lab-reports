@@ -21,7 +21,8 @@ If you need help with *CSE12* and understanding data structures, try watching th
 * bit
 * by a spider
 
---- Want to learn how to code?
+--- 
+>> Want to learn how to code?
 ```
 # javac thisisnotarealfile.java
 java thisisnotarealfile
