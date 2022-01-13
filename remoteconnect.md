@@ -15,7 +15,7 @@ reset the password following the steps located in that webpage.
 1. Open VSCode.
 2. Open a new terminal in VSCode using the menu at the top or type `ctrl + '`
 3. In the terminal, type the command `ssh cs15lwi22agc@ieng6.ucsd.edu` but replace `cs15lwi22agc`
-   with your course-specific usernmane.
+   with your course-specific username.
 4. You will you get an output question (yes/no), simply type yes and press enter.
 5. Enter a custom password or press enter (the password will not show it as you type so write it down so you don't forget).
 
