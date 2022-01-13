@@ -17,7 +17,7 @@ The purpose of this is to execute powerful calculations that your small laptop s
 Some calculations just require a lot of work. That is where servers come in handy for individuals to 
 perform these complicated calculations with the help of these lab computers at UCSD.
 
-Here is a quick sketch by Professor Politz describing what this process is like.
-![Image]().
+Below is a quick sketch by Professor Politz describing what this process is like.
+![Image](Screenshot1.png)
 
 ![Image](spiderMEME.jpg)
