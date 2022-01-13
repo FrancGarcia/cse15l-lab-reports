@@ -19,8 +19,9 @@ reset the password following the steps located in that webpage.
 4. You will you get an output question (yes/no), simply type yes and press enter.
 5. Enter a custom password or press enter (the password will not show it as you type so write it down so you don't forget).
 
-**Note:**
-Your terminal should display something similar to the image below.
+**IMPORTANT:**
+**Your terminal should display something similar to the image below.**
+
 ![Image](step2.png)
 
 ---
