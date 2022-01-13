@@ -22,4 +22,15 @@ perform these complicated calculations.
 Below is a quick sketch by Professor Politz describing what this process is like.
 ![Image](Screenshot1.png)
 
-![Image](spiderMEME.jpg)
+---
+**STEP 1: Installing VS Code**
+
+**STEP 2: Connecting remotely**
+
+**STEP 3: Trying some commands**
+
+**STEP 4: Moving files with scp**
+
+**STEP 5: Setting an SSH key**
+
+**STEP 6: Optimizing remote running**
