@@ -12,4 +12,4 @@ menu at the bottom left of your computer.
 Once opened, VSCode should look something like this:
 ![Image](vscode.png)
 
-**Visit [STEP 2]() or go back to the [main blog post](https://francgarcia.github.io/cse15l-lab-reports/lab-report-1-week-2.html).**
+**Visit [STEP 2](https://francgarcia.github.io/cse15l-lab-reports/remoteconnect.html) or go back to the [main blog post](https://francgarcia.github.io/cse15l-lab-reports/lab-report-1-week-2.html).**
