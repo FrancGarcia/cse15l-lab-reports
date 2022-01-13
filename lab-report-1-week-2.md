@@ -23,14 +23,14 @@ Below is a quick sketch by Professor Politz describing what this process is like
 ![Image](Screenshot1.png)
 
 ---
-**STEP 1: Installing VS Code**
+**STEP 1: [Installing VS Code](https://francgarcia.github.io/cse15l-lab-reports/vscode.html)**
 
-**STEP 2: Connecting remotely**
+**STEP 2: [Connection Remotely](https://francgarcia.github.io/cse15l-lab-reports/remoteconnect.html)**
 
-**STEP 3: Trying some commands**
+**STEP 3: [Trying some commands](https://francgarcia.github.io/cse15l-lab-reports/commands.html)**
 
-**STEP 4: Moving files with scp**
+**STEP 4: [Moving files with scp](https://francgarcia.github.io/cse15l-lab-reports/scp.html)**
 
-**STEP 5: Setting an SSH key**
+**STEP 5: [Setting an SSH key](https://francgarcia.github.io/cse15l-lab-reports/sshkey.html)**
 
-**STEP 6: Optimizing remote running**
+**STEP 6: [Optimizing remote running](https://francgarcia.github.io/cse15l-lab-reports/optimizing.html)**
