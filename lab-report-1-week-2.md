@@ -37,7 +37,7 @@ You will have an account for each course you are taking.
 Make sure to find the one that correpsonds to CSE15L and
 reset the password following the steps located in that webpage.
 
----
+
 
 **Now follow these instructions:**
 1. Open VSCode.
@@ -52,7 +52,7 @@ reset the password following the steps located in that webpage.
 
 ![Image](step2.png)
 
----
+
 
 The above image describes that your terminal/laptop is now connected to the computers in the CSE building!
 Any commands you run on your terminal will run on these computers (servers)!
