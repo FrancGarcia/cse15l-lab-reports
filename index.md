@@ -11,20 +11,22 @@ If you need help with *CSE12* and understanding data structures, try watching th
 ---
 
 > If you want to learn how to make a 'basic website like this', follow these rules:
-
-'''
 1. Make GitHub account.
 2. Create new Repository.
 3. I forgot the rest. . .
-'''
 
 ---
-Want to learn how to be SpiderMan? Here's a list of what you need!
-'''
+> Want to learn how to be SpiderMan? Here's a list of what you need!
 * Get
 * bit
 * by a spider
-'''
+
+--- Want to learn how to code?
+```
+# javac thisisnotarealfile.java
+java thisisnotarealfile
+Welp... that didn't work!
+```
 
 
 
