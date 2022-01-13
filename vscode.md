@@ -1,4 +1,4 @@
-#**STEP 1: Installing VSCode**
+**#STEP 1: Installing VSCode**
 
 VSCode (aka Visual Studio Code) is an Integraded Developer Environment.
 There are versions for all major operating systems such as Windows or OSX systems.
