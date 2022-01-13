@@ -53,8 +53,6 @@ reset the password following the steps located in that webpage.
 
 ![Image](step2.png)
 
-
-
 The above image describes that your terminal/laptop is now connected to the computers in the CSE building!
 Any commands you run on your terminal will run on these computers (servers)!
 
@@ -74,7 +72,7 @@ simply by using `ctrl D` or typing `exit` and pressing enter in the terminal.
 
 The image below shows the commands I ran on `ieng6` server and my Windows laptop after logging out (respectively).
 
-![Image](step3.png).
+![Image](step3.png)
 
 What do you think these commands do? I tried various `ls`commands. To my findings, `ls` produces a list of files or directories. 
 
