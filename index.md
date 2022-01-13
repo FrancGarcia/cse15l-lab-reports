@@ -8,3 +8,25 @@ If you need help with *CSE12* and understanding data structures, try watching th
 
 ![Image](https://cdn.idntimes.com/content-images/duniaku/post/20210226/8-0930d22cd3c6be8b3a469ef8d2c5ef59-1a632f682515312b134ca1fb0f3f52f9.jpg).
 
+---
+
+> If you want to learn how to make a 'basic website like this', follow these rules:
+
+'''
+1. Make GitHub account.
+2. Create new Repository.
+3. I forgot the rest. . .
+'''
+
+---
+Want to learn how to be SpiderMan? Here's a list of what you need!
+'''
+* Get
+* bit
+* by a spider
+'''
+
+
+
+
+
