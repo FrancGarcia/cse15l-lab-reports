@@ -3,8 +3,9 @@ Now, let's say that you want to move files from your computer to a remote comput
 One way to do this is by using the `scp` command on your client (not when you're logged into a server like `ieng6`).
 
 **Try this:**
-1. Create a file on your computer called `WhereAmI.java`.
-2. Copy and paste these contents into the file:
+1. Log out of `ieng6` using `exit` in the terminal (if you haven't already).
+2. Create a file on your computer called `WhereAmI.java`.
+3. Copy and paste these contents into the file:
    ```
    class WhereAmI {
     public static void main(String[] args) {
