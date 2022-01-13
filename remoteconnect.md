@@ -1,8 +1,8 @@
 # **STEP 2: Connecting Remotely**
 
-If you have Windows operating system,  first install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) which will allow you to actually connect to the course-specific account through the remote computer or server.
+If you have Windows operating system,  **first install** [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) which will allow you to actually connect to the course-specific account through the remote computer or server.
 
-After following the instructions found in OpenSSH installation, look up your course-specific account for CSE15L [here](https://sdacs.ucsd.edu/~icc/index.php).
+After following the instructions found in OpenSSH installation, **look up your course-specific account for CSE15L** [here](https://sdacs.ucsd.edu/~icc/index.php).
 
 **NOTE:**
 You will have an account for each course you are taking.
@@ -11,7 +11,7 @@ reset the password following the steps located in that webpage.
 
 ---
 
-Now follow these instructions:
+**Now follow these instructions:**
 1. Open VSCode.
 2. Open a new terminal in VSCode using the menu at the top or type `ctrl + '`
 3. In the terminal, type the command `ssh cs15lwi22agc@ieng6.ucsd.edu` but replace `cs15lwi22agc`
