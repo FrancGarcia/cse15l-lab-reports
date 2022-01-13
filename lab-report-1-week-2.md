@@ -4,6 +4,8 @@
 
 *By: **Francisco Garcia***
 
+*Course: CSE15L*
+
 ---
 
 To begin logging into a course-specific account on ieng6, we first must understand what ieng6 is.
