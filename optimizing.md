@@ -4,7 +4,7 @@
 
 ---
 
-And *that* is how you log into a course-specific account in ieng6!
+And *that* is how you log into a course-specific account in `ieng6`!
 I really hope that helped! Don't forget, stay healthy amidst this pandemic!
 
 ---
