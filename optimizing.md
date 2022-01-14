@@ -7,7 +7,7 @@ to run directly in the remote server.
 
 Below is an image displaying how using  `;` and `^` looks like. Give it a try!
 
-![Image]()
+![Image](optimization.png)
 
 
 ---
