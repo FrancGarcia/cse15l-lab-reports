@@ -8,7 +8,7 @@
 
 ---
 
-To begin logging into a course-specific account on ieng6, we first must understand what ieng6 is.
+To begin logging into a course-specific account on `ieng6`, we first must understand what `ieng6` is.
 In it's most primitive terms, ieng6 is a remote server for clients utilizing "editors" such as 
 Visual Studio Code.
 
