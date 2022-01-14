@@ -19,9 +19,6 @@ The purpose of this is to execute powerful calculations that your small laptop s
 Some calculations just require a lot of work. That is where these servers come in handy for individuals to 
 perform these complicated calculations.
 
-Below is a quick sketch by Professor Politz describing what this process is like.
-![Image](Screenshot1.png)
-
 ---
 > **IMPORTANT:** All of the steps described below are the same steps I took (I have Windows operating system).
 > For simple understanding, the directions are written in second person.
