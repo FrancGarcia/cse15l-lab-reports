@@ -36,6 +36,7 @@ Allow it to download, then open the application by searching for VSCode in your 
 menu at the bottom left of your computer.
 
 Once opened, VSCode should look something like this:
+
 ![Image](vscode.png)
 
 ---
