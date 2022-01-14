@@ -8,8 +8,6 @@
 
 ---
 
-# **STEP 1: Installing VSCode**
-
 To begin logging into a course-specific account on `ieng6`, we first must understand what `ieng6` is.
 In it's most primitive terms, `ieng6` is a remote server for clients utilizing "editors" such as 
 Visual Studio Code.
@@ -26,6 +24,9 @@ perform these complicated calculations.
 > For simple understanding, the directions are written in second person.
 ---
 
+# **STEP 1: Installing VSCode**
+
+---
 # **STEP 2: Connecting Remotely**
 
 If you have Windows operating system,  **first install** [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse) which will allow you to actually connect to the course-specific account through the remote computer or server.
