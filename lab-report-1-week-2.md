@@ -155,7 +155,7 @@ To automate this process a little, you can use `ssh` keys.
    +----[SHA256]-----+
    ```
    
-   **NOTE: Your output may differ slightly by note having the `Overwrite (y/n)?`. I simply got this question because I have already done this process. If you have done this        process before, you will have the same question as I recieved.**
+   **NOTE: Your output may differ slightly by not having the `Overwrite (y/n)?`. I simply got this question because I have already done this process. If you have done this        process before, you will have the same question as I recieved.**
    
 4. Then type `ssh-add 'C:\Users\Francisco\.ssh\id_rsa'` into your terminal (only difference is the username after `Users/`).
 5. If you recieve an output stating the directory does not exist, open your search menu on your laptop, and search for `services`.
