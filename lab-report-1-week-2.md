@@ -176,9 +176,11 @@ To automate this process a little, you can use `ssh` keys.
 15. If you followed these steps correctly, the terminal should no longer ask for your password whenever you use the `ssh` or `scp` commands.
 
 Below is an image of changing **OpenSSH Server** to `Manual`.
+
 ![Image](openssh.png)
 
 Below is an image of how the terminal should respond by no longer requiring your password whenever using the `ssh` or `scp` commands.
+
 ![Image](nopassword.png)
 
 ---
