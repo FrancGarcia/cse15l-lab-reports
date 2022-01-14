@@ -207,17 +207,4 @@ I really hope that helped! Don't forget, stay healthy amidst this pandemic!
 
 ---
 
-
-
-
-**STEP 1: [Installing VS Code](https://francgarcia.github.io/cse15l-lab-reports/vscode.html)**
-
-**STEP 2: [Connection Remotely](https://francgarcia.github.io/cse15l-lab-reports/remoteconnect.html)**
-
-**STEP 3: [Trying some commands](https://francgarcia.github.io/cse15l-lab-reports/commands.html)**
-
-**STEP 4: [Moving files with scp](https://francgarcia.github.io/cse15l-lab-reports/scp.html)**
-
-**STEP 5: [Setting an SSH key](https://francgarcia.github.io/cse15l-lab-reports/sshkey.html)**
-
-**STEP 6: [Optimizing remote running](https://francgarcia.github.io/cse15l-lab-reports/optimizing.html)**
+Date: January 13, 2022
