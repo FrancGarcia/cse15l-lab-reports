@@ -1,6 +1,14 @@
 # **STEP 6: Optimizing Remote Running**
+Now you're ready to go! In this class, you will always want to optimize as much as possible.
+* In the case of remote running, you can use quotation marks for certain commands that you would like 
+to run directly in the remote server.
+* You can also use semicolons to run multiple commands in your terminal on one line.
+* Don't forget! You can also use the `^` arrow to recall the prevoius commands.
 
-**Visit [main blog post](https://francgarcia.github.io/cse15l-lab-reports/lab-report-1-week-2.html).**
+Below is an image displaying how using  `;` and `^` looks like. Give it a try!
+
+![Image]()
+
 
 ---
 
