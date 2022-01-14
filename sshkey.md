@@ -37,9 +37,9 @@ To automate this process a little, you can use `ssh` keys.
    **NOTE: Your output may differ slightly by note having the `Overwrite (y/n)?`. I simply got this question because I have already done this process. If you have done this        process before, you will have the same question as I recieved.**
    
 4. Then type `ssh-add 'C:\Users\Francisco\.ssh\id_rsa'` into your terminal (only difference is the username after `Users/`).
-5. If you recieve an output stating the directory does not exist, open your serach menu on your laptop, and search for `services`.
-6. Once in `services`, scroll down to `OpenSSH Server`. Click on it, and change the status to `Manual`.
-7. Now open the search bar once more, and find `Windows PowerShell`. Open this and click on `run as Administrator`.
+5. If you recieve an output stating the directory does not exist, open your search menu on your laptop, and search for `services`.
+6. Once in **services**, scroll down to **OpenSSH Server**. Click on it, and change the status to `Manual`.
+7. Now open the search bar once more, and find **Windows PowerShell**. Open this and click on `run as Administrator`.
 8. Then a PowerShell terminal will open up. Type in these commands one-by-one:
    * `Get-Service ssh-agent | Set-Service -StartupType Manual`
    * `Start-Service ssh-agent`
@@ -54,8 +54,8 @@ To automate this process a little, you can use `ssh` keys.
 14. Now enter `scp /Users/Francisco/.ssh/id_rsa.pub cs15lwi22@ieng6.ucsd.edu:~/.ssh/authorized_keys`, with `Francisco` being replaced with your username.
 15. If you followed these steps correctly, the terminal should no longer ask for your password whenever you use the `ssh` or `scp` commands.
 
-Below is an image of changing the `OpenSSH Server` to `Manual`.
-![Image]()
+Below is an image of changing **OpenSSH Server** to `Manual`.
+![Image](openssh.png)
 
 Below is an image of how the terminal should respond by no longer requiring your password whenever using the `ssh` or `scp` commands.
-![Image]()
+![Image](nopassword.png)
