@@ -197,6 +197,24 @@ Below is an image displaying how using  `;` and `^` looks like. Give it a try!
 
 ![Image](optimization.png)
 
+Now here is the best way to edit a file locally, and copy and run it on a server:
+1. Open the `WhereAmI.java` file that you initially created in STEP 4.
+2. Make an edit to the file (ex: try `System.out.println("Hello world, from my server")`)
+   in the `public static void main(String[] args){}`.
+3. Now type `scp WhereAmI.java cs15lwi22agc@ieng6.ucsd.edu:~/` into the terminal (replace `cs15lwi22agc` with your course-specific username).
+4. Now type `ssh cs15lwi22agc@ieng6.ucsd.edu` into the terminal to log into the remote server (replace `cs15lwi22agc` with your course-specific username).
+5. If you did STEP 5 with `ssh` keys correctly, the terminal will not ask you for your password.
+6. Now compile the file in the remote server by typing `javac WhereAmI.java`.
+7. Now run the file in the remote server using `java WhereAmI.java`.
+8. **DO NOT** forget that you can also use the `^` arrow to recall the prevoius commands.
+
+Your terminal should look something like this!
+
+![Image]()
+
+**NOTE:** On average, this process should take about 3 mouse-clicks, 10 keystrokes in the terminal (using the `^` key), and about 60 seconds.
+
+**NOTE:** The keystrokes for editing the file were not included in the total count because different users may include different edits, which will account for different amount of keystrokes.
 
 ---
 
