@@ -210,7 +210,7 @@ Now here is the best way to edit a file locally, and copy and run it on a server
 
 Your terminal should look something like this!
 
-![Image]()
+![Image](finalstep.png)
 
 **NOTE:** On average, this process should take about 3 mouse-clicks, 10 keystrokes in the terminal (using the `^` key), and about 60 seconds.
 
