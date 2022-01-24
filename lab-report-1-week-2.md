@@ -199,7 +199,7 @@ Below is an image displaying how using  `;` and `^` looks like. Give it a try!
 
 Now here is the best way to edit a file locally, and copy and run it on a server:
 1. Open the `WhereAmI.java` file that you initially created in STEP 4.
-2. Make an edit to the file (ex: try `System.out.println("Hello world, from my server")`)
+2. Make an edit to the file (ex: try `System.out.println("Hello world, from my server!")`)
    in the `public static void main(String[] args){}`.
 3. Now type `scp WhereAmI.java cs15lwi22agc@ieng6.ucsd.edu:~/` into the terminal (replace `cs15lwi22agc` with your course-specific username).
 4. Now type `ssh cs15lwi22agc@ieng6.ucsd.edu` into the terminal to log into the remote server (replace `cs15lwi22agc` with your course-specific username).
