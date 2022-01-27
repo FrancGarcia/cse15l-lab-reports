@@ -10,7 +10,7 @@
 **CODE CHANGE #1**
 ![Image](bugfix1.png)
 ![Link](test-file2.md)
-![Image]()
+![Image](terminal2.png)
 **Description**
 
 ---
