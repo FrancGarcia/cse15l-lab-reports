@@ -30,7 +30,7 @@ Here is [test-file2](https://github.com/FrancGarcia/markdown-parse/blob/main/tes
 ---
 
 **CODE CHANGE #3**
-![Image]()
+![Image](bugfix3.png)
 
 Here is [test-file3](https://github.com/FrancGarcia/markdown-parse/blob/main/test-file3.md) for the **third** *failure-induced input*.
 
