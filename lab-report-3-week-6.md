@@ -9,7 +9,7 @@
 ---
 **Editing the File in VSCode**
 
-![Image](png)
+![Image](editfile_ssh_streamline.png)
 
 **Description:**
 
@@ -17,7 +17,7 @@
 
 **Logging into Account Using the Alias**
 
-![Image](png)
+![Image](ssh_login_week6_labreport.png)
 
 **Description:**
 
@@ -25,7 +25,7 @@
 
 **Copying Files over Using SCP and Alias**
 
-![Image](png)
+![Image](scp_newfile_alias.png)
 
 **Description:**
 
