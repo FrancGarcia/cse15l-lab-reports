@@ -46,6 +46,6 @@ I first created a new file that prints basic output in the terminal when ran, na
 
 ---
 
-[Back to Main Page.]()
+[Back to Main Page.](https://francgarcia.github.io/cse15l-lab-reports/cse15l-lab-reports-main-page.html)
 
 Date: February 11, 2022
