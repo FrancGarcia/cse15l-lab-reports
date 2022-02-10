@@ -22,7 +22,7 @@ Host ieng6
 ```
 By adding the above input, my terminal tells the system to recognize `ieng6` as the **alias** for logging into, or even copying files into my CSE15L course-specific account. The Hostname is the fullname of the server that the operating system accesses when using `.ssh` and `scp` commands.
 
-The general classpath for this process looks like this `C:\Users\Francisco\.ssh`. By adding 
+The general classpath for this process looks like this `C:\Users\Francisco\.ssh`. It will look different for you. 
 
 ---
 
