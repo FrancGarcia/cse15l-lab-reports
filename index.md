@@ -1,12 +1,23 @@
-# CSE15L Lab Week 2
+# CSE15L Software Tools and Techniques Lab
 
-## Author: Francisco Garcia
+## Lab Reports
 
-**Hello guys!** This is my first repository for *CSE15L*!
+*By: **Francisco Garcia***
 
-If you need help with *CSE12* and understanding data structures, try watching this [video](https://www.youtube.com/watch?v=8hly31xKli0).
+---
 
-Here is a link for Week 2 [Lab Report 1](https://francgarcia.github.io/cse15l-lab-reports/lab-report-1-week-2.html).
+Below, the links to the various lab reports from CSE15L are attached.
+
+[Lab Report 1](https://francgarcia.github.io/cse15l-lab-reports/lab-report-1-week-2.html)
+
+[Lab Report 2](https://francgarcia.github.io/cse15l-lab-reports/lab-report-2-week-4.html)
+
+[Lab Report 3](https://francgarcia.github.io/cse15l-lab-reports/lab-report-3-week-6.html)
+
+
+---
+
+*Winter 2022*
 
 ![Image](https://cdn.idntimes.com/content-images/duniaku/post/20210226/8-0930d22cd3c6be8b3a469ef8d2c5ef59-1a632f682515312b134ca1fb0f3f52f9.jpg)
 
