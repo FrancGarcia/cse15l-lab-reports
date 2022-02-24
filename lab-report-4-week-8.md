@@ -70,7 +70,7 @@ I think I can use less than 10 lines of code to make the program work for snippe
 According to the first image above, the expected output for the `snippet3.md` should be a list of links `[https://ucsd-cse15l-w22.github.io/]`. However, the initial JUnit test did not pass as it produced an unexpected output as seen in the second image above. 
 
 **How can we change the code to work for snippet 3?**
-I do NOT think I can use less than 10 lines of code to make the program work for snippet 3 and all related cases. The current program includes all of the contents after the first set of `[]`. I would have to include code that accounts for new lines which entails including `StringBuffers` and `\n` behavior. This in itself took about 5 lines of code in my own repository. In addition to these 5 lines of code, I would have to include more conditionals to restart the iterative process for searching for other sets of brackets and parentheses.
+I do NOT think I can use less than 10 lines of code to make the program work for snippet 3 and all related cases. The current program includes all of the contents after the first set of `[]`. I would have to include code that accounts for new lines which entails including `StringBuffers` and `\n` behavior. This in itself will take about 5 lines of code in the program. In addition to these 5 lines of code, I would have to include more conditionals to restart the iterative process for searching for other sets of brackets and parentheses.
 
 ---
 
