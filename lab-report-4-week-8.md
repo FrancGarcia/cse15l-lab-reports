@@ -49,7 +49,7 @@ I think we can use less than 10 lines of code to make the program work for snipp
 According to the first image above, the expected output for the `snippet1.md` should be a list of links such as `['google.com, google.com, ucsd.edu]`. However, the initial JUnit test did not pass as it produced an unexpected output as seen in the second image above.
 
 **How can we change the code to work for snippet 1?** 
-I think we can use less than 10 lines of code to make the program work for snippet 1 and all related cases using backticks by using an if-statement to only check for backticks present inside the parentheses of the link itself. Using an if-statement, if there are backticks within the open and closed brackets, we simply ignore those backticks until we find the next set of parentheses.
+I think we can use less than 10 lines of code to make the program work for snippet 1 and all related cases using backticks by using an if-statement to only check for backticks present inside the parentheses of the link itself. The current code takes into account backticks within the brackets which prevents the links from being rendered within the list of links. Using an if-statement, if there are backticks within the open and closed brackets, we simply ignore those backticks until we find the next set of parentheses.
 
 ---
 
