@@ -41,7 +41,7 @@ I think we can use less than 10 lines of code to make the program work for snipp
 
 ---
 
-## The ![repository](https://github.com/yi113/markdown-parse) that I reviewed.
+## The [repository](https://github.com/yi113/markdown-parse) that I reviewed.
 
 **How can we change the code to work for snippet 1?**
 
