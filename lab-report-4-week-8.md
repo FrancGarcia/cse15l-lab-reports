@@ -11,19 +11,19 @@
 My ![markdown-parse repository](https://github.com/FrancGarcia/markdown-parse).
 
 ![Image](testcode1.png)
-![Image](test1.png)
+![Image](snippet1test.png)
 
 According to the images above, the expected output for the `snippet1.md` should be a list of links 
 
 >
 ![Image](testcode2.png)
-![JUnit output for test 2](test2.png)
+![Image](snippet2test.png)
 
 According to the images above, the expected output for the `snippet1.md` should be a list of links
 
 >
 ![Image](testcode3.png)
-![JUnit output for test 3](test3.png)
+![Image](snippet3test.png)
 
 According to the images above, the expected output for the `snippet1.md` should be a list of links
 
