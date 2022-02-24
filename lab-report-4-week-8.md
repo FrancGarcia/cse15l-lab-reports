@@ -59,7 +59,7 @@ I think we can use less than 10 lines of code to make the program work for snipp
 According to the first image above, the expected output for the `snippet2.md` should be a list of links such as `[a.com, a.com(()), example.com]`. However, the initial JUnit test did not pass as it produced an unexpected output as seen in the second image above.
 
 **How can we change the code to work for snippet 2?**
-I think we can use less than 10 lines of code to make the program work for snippet 2 and all related cases by using additional conditional statements. I can specifically treat the first `[` or `(` as the initial information needed to render a link and all other nested brackets and parentheses are ignored. This process will continue until the last `]` or `)` are found in the link. If none are found, then the links are not rendered in the list.
+I think we can use less than 10 lines of code to make the program work for snippet 2 and all related cases by using additional conditional statements. I can specifically edit the current conditionals and loops to iterate through the contents and ignore any open or closed brackets within a set of brackets, as well as any open or clsoed parentheses within a set of parentheses. The code can use a temporary variable holder to hold the index of the initial `[` or `(` and ignore all other brackets and parentheses after those initial ones until we find the very last `]` or `)` instead of the first occurrences of those `char`s.
 
 
 ---
