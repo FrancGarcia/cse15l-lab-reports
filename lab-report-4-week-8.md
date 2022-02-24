@@ -51,4 +51,6 @@ I think we can use less than 10 lines of code to make the program work for snipp
 
 ---
 
+[Back to Main Page.](https://francgarcia.github.io/cse15l-lab-reports/index.html)
+
 Date: February 25, 2022
