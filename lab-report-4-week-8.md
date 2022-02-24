@@ -15,7 +15,8 @@
 
 According to the first image above, the expected output for the `snippet1.md` should be a list of links such as `['google.com, google.com, ucsd.edu]`. However, the initial JUnit test did not pass as it produced an unexpected output as seen in the second image above.
 
-**How can we change the code to work for snippet 1?**
+**How can we change the code to work for snippet 1?** 
+I think we can use less than 10 lines of code to make the program work for snippet 1 and all related cases using backticks by simply using an if-statement within a for-loop. I can specifically treat the backticks as other `char` data and simply iterate through the `String` like I have already been doing in my current `MarkdownParse.java` file. Iterating through the `snippet1.md` file, I can use conditionals to simply check for open or closed brackets and parentheses.
 
 ---
 
@@ -25,6 +26,8 @@ According to the first image above, the expected output for the `snippet1.md` sh
 According to the first image above, the expected output for the `snippet1.md` should be a list of links such as `[a.com, a.com(()), example.com]`. However, the initial JUnit test did not pass as it produced an unexpected output as seen in the second image above.
 
 **How can we change the code to work for snippet 2?**
+I think we can use less than 10 lines of code to make the program work for snippet 2 and all related cases by using additional conditional statements. I can specifically treat the first `[` or `(` as the initial information needed to render a link and all other nested brackets and parentheses are ignored. This process will continue until the last `]` or `)` are found in the link. If none are found, then the links are not rendered in the list.
+
 
 ---
 
@@ -34,6 +37,7 @@ According to the first image above, the expected output for the `snippet1.md` sh
 According to the first image above, the expected output for the `snippet1.md` should be a list of links `[https://ucsd-cse15l-w22.github.io/]`. However, the initial JUnit test did not pass as it produced an unexpected output as seen in the second image above. 
 
 **How can we change the code to work for snippet 3?**
+I think we can use less than 10 lines of code to make the program work for snippet 3 and all related cases using an if-statement, `StringBuffers`, and `\n` to check for the indices of new lines. I can implement using loops that iterates through the contents in a file and specifically finds `[` or `(`. Once it finds these `char`s then we can continue the iteration and using `StringBuffers` and `\n`, we can check if there is a new line, simultaneously. If there is a new line, then using the conditional statements, we can jump to the new lines and continue the iteration.
 
 ---
 
