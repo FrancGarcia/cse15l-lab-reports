@@ -34,7 +34,7 @@ I think we can use less than 10 lines of code to make the program work for snipp
 ![Image](testcode3.png)
 ![Image](snippet3test.png)
 
-According to the first image above, the expected output for the `snippet3.md` should be a list of links `[https://ucsd-cse15l-w22.github.io/]`. However, the initial JUnit test did not pass as it entered an infinite loop as the while-loop's condition was infinitely satisfied.
+According to the first image above, the expected output for the `snippet3.md` should be a list of links `[https://ucsd-cse15l-w22.github.io/]`. However, the initial JUnit test did not pass as it entered an infinite loop as the while-loop's condition was infinitely satisfied. As a result, I had to use `$ ^C` command to exit the infinite loop.
 
 **How can we change the code to work for snippet 3?**
 I think we can use less than 10 lines of code to make the program work for snippet 3 and all related cases using an if-statement, `StringBuffers`, and `\n` to check for the indices of new lines. I can implement using loops that iterates through the contents in a file and specifically finds `[` or `(`. Once it finds these `char`s then we can continue the iteration and using `StringBuffers` and `\n`, we can check if there is a new line, simultaneously. If there is a new line, then using the conditional statements, we can jump to the new lines and continue the iteration.
