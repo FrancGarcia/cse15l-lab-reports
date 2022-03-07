@@ -17,6 +17,8 @@ Below, the links to the various lab reports from CSE15L are attached.
 [Lab Report 4](https://francgarcia.github.io/cse15l-lab-reports/lab-report-4-week-8.html)
 
 
+[Lab Report 5](https://francgarcia.github.io/cse15l-lab-reports/lab-report-5-week-10.html)
+
 ---
 
 *Winter 2022*
