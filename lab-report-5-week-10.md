@@ -28,6 +28,16 @@ To compare the two repositories and their results for this test, I utilized the 
 
 **Which is a Correct Implementation?:**
 
+According to this [commonmark demo](https://spec.commonmark.org/dingus/), the contents in file 22.md should be included in the resultint list of links as it produces a link. Therefore, my implementation is correct, while Joe's is incorrect as his implementation did not include the link. This is seen in the image above, specifically by:
+
+```
+> [/bar\* "ti\*tle"]
+270c270
+< []
+```
+
+The above output describes how my implemenation included the link within the list as seen above `270c270`. The output also describes how Joe's implementation did not include the link within the list as seen by the empty list below `270c270`.
+
 ---
 
 ## Test 2
@@ -50,6 +60,16 @@ To compare the two repositories and their results for this test, I utilized the 
 To compare the two repositories and their results for this test, I utilized the command `diff markdown-parse/results.txt cse15l-markdown-parse/markdown-parse/results.txt`. `markdown-parse/results.txt` represents my repository while `cse15l-markdown-parse/markdown-parse/results.txt` represents Professor Joe's repository. This command shows the different results for my implementation versus Joe's implementation. According to the difference in results, we must check lines of the `results.txt` file. For the sake of time, I chose to check lines 270 and lines 850 for the two tests. According to the `results.txt` file, the other corresponding `test-file` I'm comparing is `481.md` found within `test-files`. This process is shown in the images above.
 
 **Which is a Correct Implementation?:**
+
+According to this [commonmark demo](https://spec.commonmark.org/dingus/), the contents in file 481.md should be included in the list of links. Therefore, my implementation is incorrect as it wasn't included in the list of links, according to the image above displaying the difference in results. Joe's implementation is correct as the contents were rendered as a link. This is specifically seen in: 
+
+```
+> []
+850c850
+< [/uri "title"]
+```
+
+The above output describes how my implemenation did not include the link within the list as it is above `850c850`. The output also describes how Joe's implementation did include the link within the list as seen below `850c850`.
 
 ---
 
