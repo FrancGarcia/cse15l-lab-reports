@@ -17,9 +17,9 @@
 
 ![Image](labreport5test1.png)
 
-**Contents of the test file:**
+**Contents of the test file 22.md:**
 
-![Image](week9pt6.png)
+![Image](contentsTest22.png)
 
 
 **How I Compared:**
@@ -40,9 +40,9 @@ To compare the two repositories and their results for this test, I utilized the 
 
 ![Image](labreport5test2.png)
 
-**Contents of the test file:**
+**Contents of the test file 481.md:**
 
-![Image](week9pt6.png)
+![Image](contentsTest481.png)
 
 
 **How I Compared:**
