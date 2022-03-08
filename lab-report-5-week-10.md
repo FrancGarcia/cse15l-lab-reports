@@ -10,12 +10,15 @@
 ## Test 1
 
 **Difference in Results:**
+
 ![Image](week9pt6.png)
 
 **Which test file is it:**
+
 ![Image](labreport5test1.png)
 
 **Contents of the test file:**
+
 ![Image](week9pt6.png)
 
 
@@ -30,12 +33,15 @@ To compare the two repositories and their results for this test, I utilized the 
 ## Test 2
 
 **Difference in Results:**
+
 ![Image](week9pt6.png)
 
 **Which test file is it:**
+
 ![Image](labreport5test2.png)
 
 **Contents of the test file:**
+
 ![Image](week9pt6.png)
 
 
