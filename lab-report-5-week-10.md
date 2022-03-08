@@ -31,12 +31,13 @@ To compare the two repositories and their results for this test, I utilized the 
 According to this [commonmark demo](https://spec.commonmark.org/dingus/), the contents in file 22.md should be included in the resultint list of links as it produces a link. Therefore, my implementation is correct, while Joe's is incorrect as his implementation did not include the link. This is seen in the image above, specifically by:
 
 ```
-> [/bar\* "ti\*tle"]
 270c270
+> [/bar\* "ti\*tle"]
+---
 < []
 ```
 
-The above output describes how my implemenation included the link within the list as seen above `270c270`. The output also describes how Joe's implementation did not include the link within the list as seen by the empty list below `270c270`.
+The above output describes how my implemenation included the link within the list as seen above `---`. The output also describes how Joe's implementation did not include the link within the list as seen by the empty list below `---`.
 
 ---
 
@@ -64,12 +65,13 @@ To compare the two repositories and their results for this test, I utilized the 
 According to this [commonmark demo](https://spec.commonmark.org/dingus/), the contents in file 481.md should be included in the list of links. Therefore, my implementation is incorrect as it wasn't included in the list of links, according to the image above displaying the difference in results. Joe's implementation is correct as the contents were rendered as a link. This is specifically seen in: 
 
 ```
-> []
 850c850
-< [/uri "title"]
+> [/uri "title"]
+---
+< []
 ```
 
-The above output describes how my implemenation did not include the link within the list as it is above `850c850`. The output also describes how Joe's implementation did include the link within the list as seen below `850c850`.
+The above output describes how my implemenation did include the link within the list as it is above `---`. The output also describes how Joe's implementation did include the link within the list as seen below `---`.
 
 ---
 
