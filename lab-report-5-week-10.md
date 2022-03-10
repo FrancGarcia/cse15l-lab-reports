@@ -40,6 +40,8 @@ According to this [commonmark demo](https://spec.commonmark.org/dingus/), the co
 
 The above output describes how my implementation included the link within the list as seen above `---`. The output also describes how the provided implementation did not include the link within the list as seen by the empty list below `---`.
 
+**How to Fix the Bug:**
+
 ---
 
 ## Test 2
@@ -74,6 +76,10 @@ According to this [commonmark demo](https://spec.commonmark.org/dingus/), the co
 ```
 
 The above output describes how my implemenation did include the link within the list as it is above `---`. The output also describes how the provided implementation did not include the link within the list as seen below the `---`.
+
+
+**How to Fix the Bug:**
+
 
 ---
 
