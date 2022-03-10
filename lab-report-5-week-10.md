@@ -42,7 +42,9 @@ The above output describes how my implementation included the link within the li
 
 **How to Fix the Bug:**
 
-The provided implementation does not include links with spaces anywhere in the contents, whereas my implementation does. This bug is found within lines (INSERT) of the provided implementation. To fix this, we can simply (INSERT).
+![Image](LR5bugfix1.png)
+
+The provided implementation does not include links with spaces anywhere in the contents, whereas my implementation does. This bug is found within lines 74-78 in the above image of the provided implementation. Within those lines, the String `potentialLink` is set to the contents within the file. However, within the conditions of the `if-statement`, the code adds the contents of the String to the list of links only if there are no spaces or new lines. To fix this bug, we can simply delete the code from lines 74-78 altogether. This will fix the bug because I lack a similar behavior in my implementation, however, my code *does* include the link.
 
 ---
 
