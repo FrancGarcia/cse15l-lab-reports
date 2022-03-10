@@ -12,7 +12,7 @@
 **Difference in Results:**
 
 ![Image](labreport5diff.png)
-![Image](labreport5test2.png)
+![Image](diff2.png)
 
 **Which test file is it:**
 
@@ -47,7 +47,7 @@ The above output describes how my implementation included the link within the li
 **Difference in Results:**
 
 ![Image](labreport5diff.png)
-![Image](labreport5test2.png)
+![Image](diff2.png)
 
 **Which test file is it:**
 
