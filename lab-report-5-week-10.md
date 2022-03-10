@@ -28,7 +28,7 @@ To compare the two repositories and their results for this test, I utilized the 
 
 **Which is a Correct Implementation?:**
 
-According to this [commonmark demo](https://spec.commonmark.org/dingus/), the contents in file 22.md should be included in the resultint list of links as it produces a link. Therefore, my implementation is correct, while the provided implementation is incorrect as this implementation did not include the link. This is seen in the image above, specifically by:
+According to this [commonmark demo](https://spec.commonmark.org/dingus/), the contents in file `22.md` should be included as a link. Therefore, my implementation is correct, while the provided implementation is incorrect as this implementation did not include the link. This is seen in the image above, specifically by:
 
 ```
 270c270
@@ -68,7 +68,7 @@ To compare the two repositories and their results for this test, I also utilized
 
 **Which is a Correct Implementation?:**
 
-According to this [commonmark demo](https://spec.commonmark.org/dingus/), the contents in file 494.md should be included in the list of links. However, the proper contents of the link should be `(foo)`, according to [commonmark demo](https://spec.commonmark.org/dingus/). Therefore, both implementations are incorrect as seen below: 
+According to this [commonmark demo](https://spec.commonmark.org/dingus/), the contents in file `494.md` should be included in the list of links. However, the proper contents of the link should be `(foo)`, according to [commonmark demo](https://spec.commonmark.org/dingus/). Therefore, both implementations are incorrect as seen below: 
 
 ```
 876c878
@@ -83,7 +83,7 @@ The above output describes how my implemenation included `\(foo\` above `---`. T
 
 ![Image](LR5bugfix2.png)
 
-For timely purposes, I will describe the bug in my implementation. As seen within the above image, my implementation sets the variable `openParen` in line 29 to the first occurence of `(` within the String `markdown`, which contains the contents of a potential link. My implementation will then iterate through the String until it finds the first occurrence of `)`, setting `closeParen` to the index of the first occurrence of that character in line 34. My implementation then includes this first set of parenthesis within the list of links, ignoring all other possible parenthesis within the contents of the file. For the example, the file 494.md contains the contents `[link](\(foo\))` as a String. My code will set `openParen` to the value of `6` and `closeParen` to the value of `13`. My implementation will then include the characters from index `6` to index `13` exclusive, producing `\(foo\` as the output link. To fix this, I can change `openParen` to the last occurrence of `(` before any `)`. I can then change `closeParen` to the last occurrence of `)` after setting `openParen` to a valid number other than `-1`. This will essentially produce `(foo)`, instead of `\(foo\`.
+For timely purposes, I will describe the bug in my implementation. As seen within the above image, my implementation sets the variable `openParen` in line 29 to the first occurence of `(` within the String `markdown`, which contains the contents of a potential link. My implementation will then iterate through the String until it finds the first occurrence of `)`, setting `closeParen` to the index of the first occurrence of that character in line 34. My implementation then includes this first set of parenthesis within the list of links, ignoring all other possible parenthesis within the contents of the file. For the example, the file `494.md` contains the contents `[link](\(foo\))` as a String. My code will set `openParen` to the value of `6` and `closeParen` to the value of `13`. My implementation will then include the characters from index `6` to index `13` exclusive, producing `\(foo\` as the output link. To fix this, I can change `openParen` to the last occurrence of `(` before any `)`. I can then change `closeParen` to the last occurrence of `)` after setting `openParen` to a valid number other than `-1`. This will essentially produce `(foo)`, instead of `\(foo\`.
 
 ---
 
