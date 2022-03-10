@@ -84,7 +84,9 @@ The above output describes how my implemenation included `\(foo\` above `---`. T
 
 **How to Fix the Bug:**
 
-For timely purposes, we can fix the bug in my implementation by (INSERT). 
+![Image](LR5bugfix2.png)
+
+For timely purposes, I will describe the bug in my implementation. As seen within the above image, my implementation sets the variable `openParen` to the first occurence of `(` within the String `markdown`, which contains the contents of a potential link. My implementation will then iterate through the String until it finds the first occurrence of `)`, setting `closeParen` to the index of the first occurrence of that character. My implementation then includes this first set of parenthesis within the list of links, ignoring all other possible parenthesis within the contents of the file. For the example, the file 494.md contains the contents `[link](\(foo\))` as a String. My code will set `openParen` to the value of `6` and `closeParen` to the value of `13`. My implementation will then include the characters from index `6` to index `13` exclusive, producing `\(foo\` as the output link. 
 
 ---
 
