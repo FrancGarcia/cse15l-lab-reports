@@ -44,7 +44,7 @@ The above output describes how my implementation included the link within the li
 
 ![Image](LR5bugfix1.png)
 
-The provided implementation does not include links with spaces anywhere in the contents, whereas my implementation does. This bug is found within lines 74-78 in the above image of the provided implementation. Within those lines, the String `potentialLink` is set to the contents within the file. However, within the conditions of the `if-statement`, the code adds the contents of the String to the list of links only if there are no spaces or new lines. To fix this bug, we can simply delete the code from lines 74-78 altogether. This will fix the bug because I lack a similar behavior in my implementation, however, my code *does* include the link.
+The provided implementation does not include links with spaces anywhere in the contents, whereas my implementation does. This bug is found within lines 74-78 in the above image of the provided implementation. Within those lines, the String `potentialLink` is set to the contents within the file. However, within the conditions of the `if-statement`, the code adds the contents of the String to the list of links only if there are no spaces or new lines. `potentialLink.indexOf(" ")` will return `-1` if there are no spaces within the string of `potentialLink`. `potentialLink.indexOf("\n");` will return `-1` if there are aren't any new lines within `potentialLink`. If these two conditions are satisfied, *then* the String `potentialLink` will be added. However, since there are spaces within `potentialLink`, the String will *not* be added to the list of links producing the incorrect output.
 
 ---
 
