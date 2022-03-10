@@ -51,11 +51,11 @@ The above output describes how my implementation included the link within the li
 
 **Which test file is it:**
 
-![Image](labreport5otherTest.png)
+![Image](labreport5test2.png)
 
-**Contents of the test file 481.md:**
+**Contents of the test file 494.md:**
 
-![Image](test495.md.png)
+![Image](contentsTest494.png)
 
 
 **How I Compared:**
@@ -64,7 +64,7 @@ To compare the two repositories and their results for this test, I utilized the 
 
 **Which is a Correct Implementation?:**
 
-According to this [commonmark demo](https://spec.commonmark.org/dingus/), the contents in file 481.md should be included in the list of links. Therefore, my implementation is incorrect as it wasn't included in the list of links, according to the image above displaying the difference in results. The provided implementation is correct as the contents were rendered as a link. This is specifically seen in: 
+According to this [commonmark demo](https://spec.commonmark.org/dingus/), the contents in file 495.md should be included in the list of links. Therefore, my implementation is incorrect as it wasn't included in the list of links, according to the image above displaying the difference in results. The provided implementation is correct as the contents were rendered as a link. This is specifically seen in: 
 
 ```
 876c878
