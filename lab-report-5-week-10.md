@@ -42,6 +42,8 @@ The above output describes how my implementation included the link within the li
 
 **How to Fix the Bug:**
 
+The provided implementation does not include links with spaces anywhere in the contents, whereas my implementation does. This bug is found within lines (INSERT) of the provided implementation. To fix this, we can simply (INSERT).
+
 ---
 
 ## Test 2
@@ -66,7 +68,7 @@ To compare the two repositories and their results for this test, I utilized the 
 
 **Which is a Correct Implementation?:**
 
-According to this [commonmark demo](https://spec.commonmark.org/dingus/), the contents in file 494.md should be included in the list of links. Therefore, my implementation is incorrect as it wasn't included in the list of links, according to the image above displaying the difference in results. The provided implementation is correct as the contents were rendered as a link. This is specifically seen in: 
+According to this [commonmark demo](https://spec.commonmark.org/dingus/), the contents in file 494.md should be included in the list of links. However, the proper contents of the link should be `(foo)`, according to [commonmark demo](https://spec.commonmark.org/dingus/). Therefore, both implementations are incorrect as seen below: 
 
 ```
 876c878
@@ -75,11 +77,12 @@ According to this [commonmark demo](https://spec.commonmark.org/dingus/), the co
 > [\(foo\)]
 ```
 
-The above output describes how my implemenation did include the link within the list as it is above `---`. The output also describes how the provided implementation did not include the link within the list as seen below the `---`.
+The above output describes how my implemenation included `\(foo\` above `---`. The output also describes how the provided implementation included `\(foo\)` as seen below the `---`.
 
 
 **How to Fix the Bug:**
 
+For timely purposes, we can fix the bug in my implementation by (INSERT). 
 
 ---
 
