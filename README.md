@@ -2,7 +2,7 @@
 
 I included various `md` files in attempt of creating a multi-page blog post for
 
-my lab reports from CSE15L: Software Tools and Techniques.
+my lab reports for the course `CSE15L: Software Tools and Techniques`.
 
 The lab reports can be found by clicking on the `lab-report-#-week-#.md` files.
 
