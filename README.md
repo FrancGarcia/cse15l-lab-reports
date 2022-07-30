@@ -1,9 +1,9 @@
 # cse15l-lab-reports
 
-I included various `md` files in attempt of creating a multi-page blog post.
+I included various `md` files in attempt of creating a multi-page blog post for
 
-After careful instruction, though, I ended up creating one page for the whole blog post.
+my lab reports from CSE15L: Software Tools and Techniques.
 
-The main blog post is found in the `lab-report-1-week-2.md` file.
+The lab reports can be found by clicking on the `lab-report-#-week-#.md` files.
 
-Also uploaded `png` images of the screenshots to include in the post.
+I also uploaded `png` images of the screenshots to include in the lab reports.
