@@ -21,4 +21,4 @@ Click through each link accordingly to visit the respective lab report.
 
 ---
 
-Date: January 13, 2022
+Date: August 1, 2022
