@@ -8,7 +8,7 @@
 
 ---
 Click through each link accordingly to visit the respective lab report.
-![link](lab-report-1-week-2.md)
+[Lab Report 1](lab-report-1-week-2.md)
 ---*
 
 Date: January 13, 2022
