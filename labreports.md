@@ -2,7 +2,7 @@
 
 ## 5 Lab Reports
 
-*By: **Francisco Garcia****
+*By: **Francisco Garcia***
 
 *Course: CSE15L*
 
